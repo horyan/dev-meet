@@ -26,10 +26,10 @@ h1, h2, h3 {
 
 // Background Garident
 .navbar, .home-callout {
-  //"Dull" gradient provided by @_ighosh at uiGradients.com
-  background: #C9D6FF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  //"Lawrencium" gradient provided by @_ighosh at uiGradients.com
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 // Nav Styles
@@ -42,7 +42,6 @@ h1, h2, h3 {
   font-weight: 800;
 }
 
-// Home Page Styles
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
   color:white;
   &:hover{
@@ -51,6 +50,18 @@ h1, h2, h3 {
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background: #302b63;
+  }
+}
+
+// Home Page Styles
 .home-callout {
   color: white;
   margin-top: -20px;
